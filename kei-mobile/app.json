@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "kei-mobile",
+    "slug": "kei-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/keiphone.png",
+    "splash": {
+      "image": "./assets/keiphone.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/keiphone.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "keiphone.apk"
+    },
+    "web": {
+      "favicon": "./assets/keiphone.png"
+    }
+  }
+}
